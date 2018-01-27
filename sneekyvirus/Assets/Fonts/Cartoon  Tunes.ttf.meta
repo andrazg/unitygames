@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 79bae27b879ac8b46b8ce87b02312f34
+timeCreated: 1517087041
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Cartoon  Tunes
+  fontNames:
+  - Cartoon  Tunes
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

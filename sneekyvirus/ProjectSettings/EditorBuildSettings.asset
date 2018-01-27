@@ -4,4 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/main.unity
+    guid: a9bcd9010035cb145aca9425b182ef7a
+  - enabled: 1
+    path: Assets/dado.unity
+    guid: d9f88c9196f7c354ca838da9e2dbea76
+  - enabled: 1
+    path: Assets/Rok.unity
+    guid: 3b2a354c5a2ab1c4393dd140ff5e6c4f
