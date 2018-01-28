@@ -39,7 +39,7 @@ public class Rotation : MonoBehaviour {
         if (collision.gameObject.tag == "folow")
         {
             Debug.Log("endeeee");
-            DoDamadge();
+            DoctorDamadge();
             Destroy(collision.gameObject);
         }
     }
@@ -47,8 +47,13 @@ public class Rotation : MonoBehaviour {
     void DoDamadge()
     {
         Controler controla = Camera.main.GetComponent<Controler>();
-        controla.sliderThermometer.value -= 1;
+        controla.sliderThermometer.value -= 2;
     }
 
+    void DoctorDamadge()
+    {
+        Controler controla = Camera.main.GetComponent<Controler>();
+        controla.sliderThermometer.value -= 5;
+    }
 
 }

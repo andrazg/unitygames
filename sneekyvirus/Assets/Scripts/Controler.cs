@@ -20,6 +20,8 @@ public class Controler : MonoBehaviour {
     public GameObject winImage;
     public GameObject loseImage;
     public GameObject btn;
+    public GameObject newVirus;
+    public GameObject[] newViruses;
 
     void Start()
     {
@@ -29,7 +31,7 @@ public class Controler : MonoBehaviour {
       //  leftUp = Camera.main.ViewportToWorldPoint(new Vector3(0, 1, 0));
        // rightDown = Camera.main.ViewportToWorldPoint(new Vector3(1, 0, 0));
        // GetRandomPosition();
-        Instantiate(sneekyVirus, spawnInitial.transform.position, spawnInitial.transform.rotation);
+        Instantiate(newViruses[Random.Range(0,5)], spawnInitial.transform.position, spawnInitial.transform.rotation);
     }
 
     void GetRandomPosition()
@@ -60,7 +62,7 @@ public class Controler : MonoBehaviour {
             janezRefrence.gameObject.tag = "default";
             referenceObject = GameObject.FindGameObjectWithTag("head");
             lastPositionHead = referenceObject;
-            Instantiate(sneekyVirus, lastPositionHead.transform.position, lastPositionHead.transform.rotation);
+            Instantiate(newViruses[Random.Range(0, 5)], lastPositionHead.transform.position, lastPositionHead.transform.rotation);
             referenceObject.gameObject.tag = "default";
             numberViruses += 1;
         }
@@ -68,15 +70,33 @@ public class Controler : MonoBehaviour {
     }
     
 
-    void RestartGame()
+    public void RestartGame()
     {
-        GameObject[] gameObjects = (FindObjectsOfType<GameObject>() as GameObject[]);
+        Time.timeScale = 1;
+        sliderThermometer.value = 5;
+        GameObject[] gameObjectsjanez = GameObject.FindGameObjectsWithTag("janrz");
+        foreach (GameObject go in gameObjectsjanez)
+        {
+            Destroy(go.gameObject);
+        }
+        GameObject[] gameObjectsdoctor = GameObject.FindGameObjectsWithTag("folow");
+        foreach (GameObject go in gameObjectsdoctor)
+        {
+            Destroy(go.gameObject);
+        }
+        GameObject[] gameObjects = GameObject.FindGameObjectsWithTag("default");
         foreach (GameObject go in gameObjects) {
+            Destroy(go.gameObject);
+        }
+        GameObject[] gameObjectsheads = GameObject.FindGameObjectsWithTag("end");
+        foreach (GameObject go in gameObjectsheads)
+        {
             Destroy(go.gameObject);
         }
         loseImage.SetActive(false);
         winImage.SetActive(false);
-        Instantiate(sneekyVirus, lastPositionHead.transform.position, lastPositionHead.transform.rotation);
+        btn.SetActive(false);
+        Instantiate(newVirus, lastPositionHead.transform.position, lastPositionHead.transform.rotation);
 
         //restart the parameters
 
