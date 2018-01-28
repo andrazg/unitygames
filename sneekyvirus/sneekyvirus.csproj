@@ -286,6 +286,8 @@
     <Compile Include="Assets\KillObjects.cs" />
     <Compile Include="Assets\ObjectSpawner.cs" />
     <Compile Include="Assets\Obstacle.cs" />
+    <Compile Include="Assets\RotateLeft.cs" />
+    <Compile Include="Assets\Rotator.cs" />
     <Compile Include="Assets\Scripts\Controler.cs" />
     <Compile Include="Assets\Scripts\Level.cs" />
     <Compile Include="Assets\Scripts\Rat.cs" />
