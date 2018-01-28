@@ -174,8 +174,10 @@ MonoBehaviour:
   minAngle: 0
   maxAngle: 0
   lastAngle: {x: 0, y: 0, z: 0, w: 0}
-  tookPillParticle: {fileID: 0}
-  healingOfDoctor: {fileID: 0}
+  tookPillParticle: {fileID: 1135421148793858, guid: ea8d3e6fd171655438389f5333200b14,
+    type: 2}
+  healingOfDoctor: {fileID: 1113887749304796, guid: 3f81b2ff572a169449e60a07c85c9aa3,
+    type: 2}
 --- !u!212 &212490984194479292
 SpriteRenderer:
   m_ObjectHideFlags: 1

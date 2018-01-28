@@ -31,7 +31,7 @@ public class Controler : MonoBehaviour {
       //  leftUp = Camera.main.ViewportToWorldPoint(new Vector3(0, 1, 0));
        // rightDown = Camera.main.ViewportToWorldPoint(new Vector3(1, 0, 0));
        // GetRandomPosition();
-        Instantiate(newViruses[Random.Range(0,5)], spawnInitial.transform.position, spawnInitial.transform.rotation);
+        GameObject viruses = Instantiate(newViruses[Random.Range(0,4)], spawnInitial.transform.position, spawnInitial.transform.rotation) as GameObject;
     }
 
     void GetRandomPosition()
@@ -62,7 +62,7 @@ public class Controler : MonoBehaviour {
             janezRefrence.gameObject.tag = "default";
             referenceObject = GameObject.FindGameObjectWithTag("head");
             lastPositionHead = referenceObject;
-            Instantiate(newViruses[Random.Range(0, 5)], lastPositionHead.transform.position, lastPositionHead.transform.rotation);
+            GameObject virus = Instantiate(newViruses[Random.Range(0, 4)], lastPositionHead.transform.position, lastPositionHead.transform.rotation) as GameObject;
             referenceObject.gameObject.tag = "default";
             numberViruses += 1;
         }
@@ -96,7 +96,7 @@ public class Controler : MonoBehaviour {
         loseImage.SetActive(false);
         winImage.SetActive(false);
         btn.SetActive(false);
-        Instantiate(newViruses[Random.Range(0, 5)], lastPositionHead.transform.position, lastPositionHead.transform.rotation);
+        GameObject newVirusOnScene = Instantiate(newViruses[Random.Range(0, 4)], lastPositionHead.transform.position, lastPositionHead.transform.rotation) as GameObject;
 
         //restart the parameters
 
