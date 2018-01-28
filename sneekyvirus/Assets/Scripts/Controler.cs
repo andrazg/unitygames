@@ -47,9 +47,16 @@ public class Controler : MonoBehaviour {
             btn.SetActive(true);
             }
 
-        if (Input.GetMouseButtonDown(0)) {
+        if (sliderThermometer.value < 5) {
+            Time.timeScale = 0;
+            loseImage.SetActive(true);
+            btn.SetActive(true);
+        }
+
+        if (Input.GetMouseButtonDown(0) && Time.timeScale > 0) {
             janezRefrence = GameObject.FindGameObjectWithTag("janrz");
             janezRefrence.GetComponent<Rotation>().enabled = false;
+            janezRefrence.GetComponent<PolygonCollider2D>().enabled = false;
             janezRefrence.gameObject.tag = "default";
             referenceObject = GameObject.FindGameObjectWithTag("head");
             lastPositionHead = referenceObject;
@@ -59,12 +66,19 @@ public class Controler : MonoBehaviour {
         }
         numbersOfViruses.text = numberViruses.ToString() + "x";
     }
-
+    
 
     void RestartGame()
     {
+        GameObject[] gameObjects = (FindObjectsOfType<GameObject>() as GameObject[]);
+        foreach (GameObject go in gameObjects) {
+            Destroy(go.gameObject);
+        }
+        loseImage.SetActive(false);
+        winImage.SetActive(false);
+        Instantiate(sneekyVirus, lastPositionHead.transform.position, lastPositionHead.transform.rotation);
+
         //restart the parameters
 
     }
- 
 }

@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 58141929024414760}
   m_Layer: 0
   m_Name: flayer
-  m_TagString: folow
+  m_TagString: end
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68,6 +68,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ead6c6eca080547428ae028b753b08bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0
+  speedDoctorMultiplier: 0
+  maxTimeLife: 0
+  minTimeLife: 0
 --- !u!212 &212209050350609674
 SpriteRenderer:
   m_ObjectHideFlags: 1
