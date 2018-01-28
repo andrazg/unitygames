@@ -11,6 +11,8 @@ public class Rotation : MonoBehaviour {
     public Quaternion lastAngle;
     public GameObject tookPillParticle;
     public GameObject healingOfDoctor;
+    public AudioSource doctorClip;
+    public AudioSource pillClip;
 
 
     private void Start()
@@ -34,6 +36,7 @@ public class Rotation : MonoBehaviour {
         {
             Debug.Log("endeeee");
             DoDamadge();
+            //pillClip.Play();
             GameObject pillParticle = Instantiate(tookPillParticle, collision.gameObject.transform.position, collision.gameObject.transform.rotation) as GameObject;
             Destroy(collision.gameObject);
             Destroy(pillParticle, 2);
@@ -43,6 +46,7 @@ public class Rotation : MonoBehaviour {
         {
             Debug.Log("endeeee");
             DoctorDamadge();
+            //doctorClip.Play();
             GameObject healingDoc = Instantiate(healingOfDoctor, collision.gameObject.transform.position, collision.gameObject.transform.rotation) as GameObject;
             Destroy(collision.gameObject);
             Destroy(healingDoc, 2);
