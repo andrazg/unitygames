@@ -34,13 +34,18 @@ public class Rotation : MonoBehaviour {
         {
             Debug.Log("endeeee");
             DoDamadge();
+            Instantiate(tookPillParticle, collision.gameObject.transform.position, collision.gameObject.transform.rotation);
             Destroy(collision.gameObject);
+            Destroy(tookPillParticle, 2);
+
         }
         if (collision.gameObject.tag == "folow")
         {
             Debug.Log("endeeee");
             DoctorDamadge();
+            Instantiate(healingOfDoctor, collision.gameObject.transform.position, collision.gameObject.transform.rotation);
             Destroy(collision.gameObject);
+            Destroy(healingOfDoctor, 2);
         }
     }
 

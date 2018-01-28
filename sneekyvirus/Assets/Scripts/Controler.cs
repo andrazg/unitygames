@@ -96,7 +96,7 @@ public class Controler : MonoBehaviour {
         loseImage.SetActive(false);
         winImage.SetActive(false);
         btn.SetActive(false);
-        Instantiate(newVirus, lastPositionHead.transform.position, lastPositionHead.transform.rotation);
+        Instantiate(newViruses[Random.Range(0, 5)], lastPositionHead.transform.position, lastPositionHead.transform.rotation);
 
         //restart the parameters
 
