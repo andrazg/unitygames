@@ -1,16 +1,45 @@
 fileFormatVersion: 2
-guid: a8e2079888908a545b91d798b89608e5
-timeCreated: 1522937918
+guid: 75ae47062cbcecb418f40d684a5be233
+timeCreated: 1522951759
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Camera
+    100004: Cube
+    100006: Cube.001
+    100008: Cube.002
+    100010: Hemi
+    100012: Lamp
+    100014: Plane
     400000: //RootNode
-    2100000: Material
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: room
+    400002: Camera
+    400004: Cube
+    400006: Cube.001
+    400008: Cube.002
+    400010: Hemi
+    400012: Lamp
+    400014: Plane
+    2000000: Camera
+    2100000: framegold
+    2100002: Material.002
+    2100004: Material.001
+    2100006: antonio
+    2300000: Cube
+    2300002: Cube.001
+    2300004: Cube.002
+    2300006: Plane
+    3300000: Cube
+    3300002: Cube.001
+    3300004: Cube.002
+    3300006: Plane
+    4300000: Cube.002
+    4300002: Cube.001
+    4300004: Cube
+    4300006: Plane
+    10800000: Hemi
+    10800002: Lamp
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -66,7 +95,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2
