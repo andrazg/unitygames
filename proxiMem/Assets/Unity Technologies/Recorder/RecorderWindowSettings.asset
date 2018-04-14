@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: RecorderWindowSettings
   m_EditorClassIdentifier: 
   m_Settings: {fileID: 0}
---- !u!114 &114404846912963534
+--- !u!114 &114005480917419516
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -20,7 +20,92 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9f55b158f7c43688c1c21ce05ac46ba, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d935bf7a4fcf66488738bda5536c1cb, type: 3}
+  m_Name: 33060f07-273a-439c-8389-1d29017482f3
+  m_EditorClassIdentifier: 
+  m_DisplayName: Pixels
+  m_Id: 6db67e25-d499-4a8b-ab74-f47139fc68fc
+  m_OutputSize: 1080
+  m_AspectRatio: 0
+  m_ForceEvenSize: 1
+  source: 1
+  m_CameraTag: 
+  m_FlipFinalOutput: 0
+  m_AllowTransparency: 0
+  m_CaptureUI: 0
+--- !u!114 &114074910966441700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fde0a8ac3e6b482c95fa602e65ab045, type: 3}
+  m_Name: Recorder Settings
+  m_EditorClassIdentifier: 
+  m_AssetID: 1793c23d32a16f642aec2f45c24e1b2d
+  m_CaptureEveryNthFrame: 1
+  m_FrameRateMode: 1
+  m_FrameRate: 30
+  m_FrameRateExact: 1
+  m_StartFrame: 0
+  m_EndFrame: 0
+  m_StartTime: 0
+  m_EndTime: 1
+  m_DurationMode: 0
+  m_SynchFrameRate: 1
+  m_BaseFileName:
+    m_Pattern: movie.<ext>
+  m_DestinationPath:
+    m_root: 1
+    m_leaf: Recordings
+  m_InputsSettings:
+    m_InputsSettingsAssets:
+    - {fileID: 114704519188248536}
+    - {fileID: 114180476526782312}
+    ownerRecorderSettingsAssetId: 1793c23d32a16f642aec2f45c24e1b2d
+  m_RecorderTypeName: UnityEditor.Recorder.MediaRecorder, Assembly-CSharp-Editor,
+    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_OutputFormat: 0
+  m_AppendSuffix: 0
+--- !u!114 &114180476526782312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fae41d0797227451ea4b10db1c086647, type: 3}
+  m_Name: 2aa93314-88e5-4847-8536-259ec3ce3c1c
+  m_EditorClassIdentifier: 
+  m_DisplayName: Audio
+  m_Id: c3f48dc6-70a8-4b27-8531-8b63fdca3873
+  m_PreserveAudio: 1
+--- !u!114 &114305008614443088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fae41d0797227451ea4b10db1c086647, type: 3}
+  m_Name: c1309507-93bd-46a4-975e-854f3f768983
+  m_EditorClassIdentifier: 
+  m_DisplayName: Audio
+  m_Id: e1866671-9ea7-4c99-b397-6ffd084f7441
+  m_PreserveAudio: 1
+--- !u!114 &114595563348772064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fde0a8ac3e6b482c95fa602e65ab045, type: 3}
   m_Name: Recorder Settings
   m_EditorClassIdentifier: 
   m_AssetID: 1793c23d32a16f642aec2f45c24e1b2d
@@ -35,19 +120,20 @@ MonoBehaviour:
   m_DurationMode: 0
   m_SynchFrameRate: 1
   m_BaseFileName:
-    m_Pattern: 
+    m_Pattern: movie.<ext>
   m_DestinationPath:
-    m_root: 1
-    m_leaf: Recordings
+    m_root: 0
+    m_leaf: C:/Users/dung/Desktop
   m_InputsSettings:
     m_InputsSettingsAssets:
-    - {fileID: 114886573224182786}
+    - {fileID: 114005480917419516}
+    - {fileID: 114305008614443088}
     ownerRecorderSettingsAssetId: 1793c23d32a16f642aec2f45c24e1b2d
-  m_RecorderTypeName: UnityEditor.Experimental.Recorder.AnimationRecorder, Assembly-CSharp-Editor,
+  m_RecorderTypeName: UnityEditor.Recorder.MediaRecorder, Assembly-CSharp-Editor,
     Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
-  outputPath: AnimRecorder<take>/<goName>_<input>
-  take: 1
---- !u!114 &114886573224182786
+  m_OutputFormat: 0
+  m_AppendSuffix: 0
+--- !u!114 &114704519188248536
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -55,10 +141,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbfd129ef371e0b468332962917d1a8b, type: 3}
-  m_Name: Scene-Stored
+  m_Script: {fileID: 11500000, guid: 8d935bf7a4fcf66488738bda5536c1cb, type: 3}
+  m_Name: d4070679-f9f5-4a1e-8966-9eb3a536cd02
   m_EditorClassIdentifier: 
-  m_DisplayName: Animation
-  m_Id: 62179b28-357f-40ea-9142-13ae2e5353d5
-  m_TypeName: UnityEditor.Experimental.Recorder.Input.AnimationInputSettings, Assembly-CSharp-Editor,
-    Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_DisplayName: Pixels
+  m_Id: d09e97a5-d326-47a7-9afb-dcc4da4ead82
+  m_OutputSize: 480
+  m_AspectRatio: 0
+  m_ForceEvenSize: 1
+  source: 1
+  m_CameraTag: 
+  m_FlipFinalOutput: 0
+  m_AllowTransparency: 0
+  m_CaptureUI: 0

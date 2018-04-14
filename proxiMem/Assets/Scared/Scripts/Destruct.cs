@@ -21,11 +21,11 @@ public class Destruct : MonoBehaviour {
         
 
 
-
+        /*
         foreach (GameObject fi in fire) {
-            fi.transform.rotation = Quaternion.AngleAxis(120, Vector3.left);
+            fi.transform.rotation = Quaternion.AngleAxis(-120, Vector3.left);
         }
-
+        */
 
         sparksOnce.SetActive(true);
     }

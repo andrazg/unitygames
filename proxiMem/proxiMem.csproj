@@ -407,7 +407,11 @@
     <Compile Include="Assets\Scared\Scripts\CameraRotate.cs" />
     <Compile Include="Assets\Scared\Scripts\ClockAnim.cs" />
     <Compile Include="Assets\Scared\Scripts\Destruct.cs" />
+    <Compile Include="Assets\Scared\Scripts\Relativity.cs" />
     <Compile Include="Assets\Scared\Scripts\SceneManger.cs" />
+    <Compile Include="Assets\Scared\Scripts\Sparcleplay.cs" />
+    <Compile Include="Assets\Scared\Scripts\TimeDivider.cs" />
+    <Compile Include="Assets\Scared\Scripts\TimeOk.cs" />
     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\BaseFCRecorderSettings.cs" />
     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\EXR\EXRRecorder.cs" />
     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\EXR\EXRRecorderSettings.cs" />
