@@ -3,7 +3,8 @@
 public class Destruct : MonoBehaviour {
 
     public GameObject[] destructables;
-    public GameObject[] fire;
+    public ParticleSystem fire;
+    public GameObject fireAngle;
     public GameObject table;
     public GameObject sparksOnce;
 
@@ -17,16 +18,28 @@ public class Destruct : MonoBehaviour {
         }
         table.AddComponent<Rigidbody>();
 
+        fire.Stop();
 
+        Invoke("FireAngle", 1f);
         
-
-
-        /*
-        foreach (GameObject fi in fire) {
-            fi.transform.rotation = Quaternion.AngleAxis(-120, Vector3.left);
-        }
-        */
 
         sparksOnce.SetActive(true);
     }
+
+
+
+
+   void FireAngle()
+    {
+            fireAngle.transform.rotation = Quaternion.AngleAxis(100, Vector3.left);
+        Invoke("FireStart", 1f);
+    }
+
+    void FireStart()
+    {
+        fire.Play();
+    }
+    
 }
+
+

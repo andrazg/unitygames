@@ -12,6 +12,7 @@ public class Sparcleplay : MonoBehaviour {
     public float timerActivatefire;
 
 
+
     public GameObject fireSound;
     public GameObject mainTheme;
 
@@ -21,6 +22,7 @@ public class Sparcleplay : MonoBehaviour {
         Invoke("Sparcles", timerParticle);
         Invoke("Activatorone", timerActivatefire);
         Invoke("Activatortwo", timerActivateMainTheme);
+
 
     }
 
@@ -33,7 +35,7 @@ public class Sparcleplay : MonoBehaviour {
         mainTheme.SetActive(true);
     }
 
-    void Sparcles() {
+        void Sparcles() {
         sparcle.Play();
     }
 
