@@ -59,11 +59,12 @@ ModelImporter:
     400050: ursika
     2100000: Material__ursiaao
     4300000: ursika
-    7400000: Default Take
+    7400000: ursikadefault
     7400002: ArmatureAction
-    7400004: shy
-    7400006: hand
-    7400008: look
+    7400004: ursikashy
+    7400006: ursikahand
+    7400008: ursikalook
+    7400010: ursikauplook
     9500000: //RootNode
     13700000: ursika
   externalObjects: {}
@@ -94,7 +95,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Default Take
+      name: ursikadefault
       takeName: Default Take
       firstFrame: 0
       lastFrame: 399
@@ -122,7 +123,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: shy
+      name: ursikashy
       takeName: Default Take
       firstFrame: 0
       lastFrame: 166
@@ -150,7 +151,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: hand
+      name: ursikahand
       takeName: Default Take
       firstFrame: 167
       lastFrame: 305
@@ -178,10 +179,38 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: look
+      name: ursikalook
       takeName: Default Take
       firstFrame: 167
       lastFrame: 204
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ursikauplook
+      takeName: Default Take
+      firstFrame: 304
+      lastFrame: 480
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
