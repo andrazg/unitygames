@@ -110,7 +110,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_DisplayName: Pixels
   m_Id: 9bfc546b-fce0-4e1b-82c3-e6724ebd23ea
-  m_OutputSize: 1080
+  m_OutputSize: 720
   m_AspectRatio: 0
   m_ForceEvenSize: 1
   source: 1
@@ -194,7 +194,7 @@ MonoBehaviour:
     m_Pattern: movie.<ext>
   m_DestinationPath:
     m_root: 0
-    m_leaf: C:/Users/dung/Desktop/movie
+    m_leaf: C:/Users/dung/Desktop
   m_InputsSettings:
     m_InputsSettingsAssets:
     - {fileID: 114274534401946878}
