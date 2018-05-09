@@ -2,7 +2,7 @@
 
 public class BlendKeyHeart : MonoBehaviour {
 
-    public float speedrotation = 10;
+    public float speedrotation = 40;
     float changepercent = 0;
     SkinnedMeshRenderer skin;
 
@@ -18,7 +18,7 @@ public class BlendKeyHeart : MonoBehaviour {
             if (skin.GetBlendShapeWeight(0) < 100)
             {
                 changepercent++;
-                skin.SetBlendShapeWeight(0, changepercent / 4);
+                skin.SetBlendShapeWeight(0, changepercent);
             }
         }
 	}
