@@ -13,10 +13,13 @@ public class BlendKeyHeart : MonoBehaviour {
 	void Update () {
         transform.RotateAround(transform.position, Vector3.up, speedrotation * Time.deltaTime);
 
-
-        if (skin.GetBlendShapeWeight(0) < 100) {
-            changepercent++;
-            skin.SetBlendShapeWeight(0, changepercent/2);
+        if (transform.localScale.x == 0.2f)
+        {
+            if (skin.GetBlendShapeWeight(0) < 100)
+            {
+                changepercent++;
+                skin.SetBlendShapeWeight(0, changepercent / 4);
+            }
         }
 	}
 }
