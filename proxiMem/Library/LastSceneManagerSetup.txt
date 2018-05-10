@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/love.unity
+- path: Assets/scared.unity
   isLoaded: 1
   isActive: 1

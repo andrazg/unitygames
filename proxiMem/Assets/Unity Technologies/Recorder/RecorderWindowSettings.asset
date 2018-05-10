@@ -194,7 +194,7 @@ MonoBehaviour:
     m_Pattern: movie.<ext>
   m_DestinationPath:
     m_root: 0
-    m_leaf: C:/Users/gru2/Desktop
+    m_leaf: C:/Users/dung/Desktop
   m_InputsSettings:
     m_InputsSettingsAssets:
     - {fileID: 114274534401946878}
