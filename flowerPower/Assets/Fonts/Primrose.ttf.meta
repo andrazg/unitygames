@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: bc49eda5f629b9f4d944a6f25725abec
+timeCreated: 1506081145
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Primrose
+  fontNames:
+  - Primrose
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

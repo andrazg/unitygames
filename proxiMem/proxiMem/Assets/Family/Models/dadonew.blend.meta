@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+guid: b18580d45aff46b42bb21adfacff76ba
+timeCreated: 1526119080
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Armature
+    100002: chest
+    100004: chest_0
+    100006: clavicle_L
+    100008: clavicle_L_0
+    100010: clavicle_R
+    100012: clavicle_R_0
+    100014: dado
+    100016: //RootNode
+    100018: finders_L
+    100020: finders_R
+    100022: fingers_L
+    100024: fingers_R
+    100026: foot_L
+    100028: foot_L_0
+    100030: foot_R
+    100032: foot_R_0
+    100034: hand_L
+    100036: hand_R
+    100038: head
+    100040: head_0
+    100042: hips
+    100044: hips_0
+    100046: hips_1
+    100048: lowerArm_L
+    100050: lowerArm_L_0
+    100052: lowerArm_R
+    100054: lowerArm_R_0
+    100056: lowerLeg_L
+    100058: lowerLeg_L_0
+    100060: lowerLeg_R
+    100062: lowerLeg_R_0
+    100064: neck
+    100066: neck_0
+    100068: palm_L
+    100070: palm_R
+    100072: thumb_L
+    100074: thumb_L_0
+    100076: thumb_R
+    100078: thumb_R_0
+    100080: torso
+    100082: torso_0
+    100084: upperArm_L
+    100086: upperarm_L
+    100088: upperArm_R
+    100090: upperarm_R
+    100092: upperLeg_L
+    100094: upperLeg_L_0
+    100096: upperLeg_R
+    100098: upperLeg_R_0
+    100100: ursika
+    400000: Armature
+    400002: chest
+    400004: chest_0
+    400006: clavicle_L
+    400008: clavicle_L_0
+    400010: clavicle_R
+    400012: clavicle_R_0
+    400014: dado
+    400016: //RootNode
+    400018: finders_L
+    400020: finders_R
+    400022: fingers_L
+    400024: fingers_R
+    400026: foot_L
+    400028: foot_L_0
+    400030: foot_R
+    400032: foot_R_0
+    400034: hand_L
+    400036: hand_R
+    400038: head
+    400040: head_0
+    400042: hips
+    400044: hips_0
+    400046: hips_1
+    400048: lowerArm_L
+    400050: lowerArm_L_0
+    400052: lowerArm_R
+    400054: lowerArm_R_0
+    400056: lowerLeg_L
+    400058: lowerLeg_L_0
+    400060: lowerLeg_R
+    400062: lowerLeg_R_0
+    400064: neck
+    400066: neck_0
+    400068: palm_L
+    400070: palm_R
+    400072: thumb_L
+    400074: thumb_L_0
+    400076: thumb_R
+    400078: thumb_R_0
+    400080: torso
+    400082: torso_0
+    400084: upperArm_L
+    400086: upperarm_L
+    400088: upperArm_R
+    400090: upperarm_R
+    400092: upperLeg_L
+    400094: upperLeg_L_0
+    400096: upperLeg_R
+    400098: upperLeg_R_0
+    400100: ursika
+    2100000: Material_001
+    2100002: Material__ursiaao
+    4300000: dado
+    4300002: ursika
+    7400000: love
+    7400002: ArmatureAction
+    7400004: hipsAction
+    9500000: //RootNode
+    13700000: dado
+    13700002: ursika
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: love
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 499
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
